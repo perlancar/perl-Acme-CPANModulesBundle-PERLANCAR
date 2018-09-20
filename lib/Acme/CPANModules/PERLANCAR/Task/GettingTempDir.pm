@@ -16,6 +16,13 @@ Then there's <pm:File::Util::Tempdir> which tries a little harder. On Unix, its
 of those are set, it will return the first existing directory from the list:
 `/tmp`, `/var/tmp`. If everything fails, will die.
 
+File::Util::Tempdir also provides `get_user_tempdir` which returns a
+user-private temporary directory, which can be useful if you want to create
+temporary file with predetermined names. It will return temporary directory
+pointed by `XDG_RUNTIME_DIR` (e.g. `/run/user/1000`) or, if unavailable, will
+create a subdirectory under the world-writable temporary directory (e.g.
+`/tmp/1000`).
+
 _
     tags => ['task'],
     entries => [
