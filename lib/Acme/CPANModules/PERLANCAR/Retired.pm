@@ -79,6 +79,19 @@ I've written <pm:Log::ger::App> to be its successor.
 
 _
             'x.date' => '2017-09-08',
+            alternate_modules => ['Log::ger::App'],
+        },
+        {
+            module => 'Package::MoreUtil',
+            description => <<'_',
+
+I didn't know about <pm:Package::Stash>, which does things more properly and
+performantly. But I've spun routines not yet covered by Package::Stash to
+<pm:Package::Util::Lite>.
+
+_
+            'x.date' => '2019-01-06',
+            alternate_modules => ['Package::Stash', 'Package::Util::Lite'],
         },
     ],
 };
