@@ -1,3 +1,8 @@
+0.006   2020-07-21  Released-By: PERLANCAR; Urgency: medium
+
+	- Avoided: Add String::Truncate.
+
+
 0.005   2019-01-09  Released-By: PERLANCAR
 
 	- Split non-PERLANCAR-specific lists to their own dists, remove the
