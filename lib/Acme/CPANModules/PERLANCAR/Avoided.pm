@@ -134,6 +134,15 @@ file, and find all matches instead of the first.
 _
             alternate_modules => ['Module::Path::More'],
         },
+        {
+            module => 'String::Truncate',
+            description => <<'_',
+
+Has non-core dependencies to <pm:Sub::Exporter> and <pm:Sub::Install>.
+
+_
+            alternate_modules => ['String::Elide::Tiny'],
+        },
     ],
 };
 
