@@ -1,6 +1,8 @@
 package Acme::CPANModules::PERLANCAR::Avoided;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
@@ -142,6 +144,18 @@ Has non-core dependencies to <pm:Sub::Exporter> and <pm:Sub::Install>.
 
 _
             alternate_modules => ['String::Elide::Tiny'],
+        },
+
+        {
+            module => 'Module::AutoLoad',
+            description => <<'_',
+
+Contains remote exploit. Ref:
+<https://news.perlfoundation.org/post/malicious-code-found-in-cpan-package> (Jul
+28, 2020).
+
+_
+            alternate_modules => ['lib::xi', 'CPAN::AutoINC', 'Module::AutoINC'],
         },
     ],
 };
