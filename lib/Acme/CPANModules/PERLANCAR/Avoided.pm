@@ -166,7 +166,7 @@ _
 1;
 # ABSTRACT:
 
-=head1 SEE ALSO
+=head1 prepend:SEE ALSO
 
 L<Perl::Critic::Policy::Community::DiscouragedModules>
 

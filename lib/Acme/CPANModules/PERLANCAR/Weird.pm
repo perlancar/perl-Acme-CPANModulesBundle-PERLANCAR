@@ -1,6 +1,11 @@
 package Acme::CPANModules::PERLANCAR::Weird;
 
+use strict;
+use warnings;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {

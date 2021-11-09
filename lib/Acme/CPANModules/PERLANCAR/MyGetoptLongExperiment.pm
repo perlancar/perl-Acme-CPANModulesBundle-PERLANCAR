@@ -1,6 +1,11 @@
 package Acme::CPANModules::PERLANCAR::MyGetoptLongExperiment;
 
+use strict;
+use warnings;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
