@@ -1,5 +1,8 @@
 package Acme::CPANModules::PERLANCAR::Avoided;
 
+use strict;
+use warnings;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -33,7 +36,7 @@ _
         {
             'x.date' => '2017-09-08',
             module => 'List::MoreUtils',
-            summary => 'License confusion and ',
+            summary => 'License confusion',
             description => <<'_',
 
 For more information, see https://www.reddit.com/r/perl/comments/6ymdez/what_are_the_background_details_pertaining_to_the/.
@@ -162,3 +165,9 @@ _
 
 1;
 # ABSTRACT:
+
+=head1 SEE ALSO
+
+L<Perl::Critic::Policy::Community::DiscouragedModules>
+
+L<Perl::Critic::Policy::Community::PreferredAlternatives>
