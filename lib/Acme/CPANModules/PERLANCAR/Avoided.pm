@@ -39,7 +39,8 @@ _
             summary => 'License confusion',
             description => <<'_',
 
-For more information, see https://www.reddit.com/r/perl/comments/6ymdez/what_are_the_background_details_pertaining_to_the/.
+For more information, see
+<https://www.reddit.com/r/perl/comments/6ymdez/what_are_the_background_details_pertaining_to_the/>.
 
 Recent versions of <pm:List::Util> have implemented many functions from
 <pm:List::MoreUtils>.
@@ -67,12 +68,26 @@ _
         },
         {
             module => 'File::Slurp',
-            summary => 'Buggy',
+            summary => 'Not encoding-friendly',
+            description => <<'_',
+
+File::Slurp was created (1996) before Perl IO layers (5.8, 2002) and its API
+does not handle encoding properly. See:
+<http://blogs.perl.org/users/leon_timmermans/2015/08/fileslurp-is-broken-and-wrong.html>
+or discussion on RT.
+
+_
             alternate_modules => ['File::Slurper'],
         },
         {
             module => 'File::Slurp::Tiny',
-            summary => 'Use the newer File::Slurper instead',
+            summary => 'Discouraged by the author',
+            description => <<'_',
+
+The author of File::Slurp::Tiny has discouraged its use and recommends his newer
+module <pm:File::Slurper>.
+
+_
             alternate_modules => ['File::Slurper'],
         },
         {
@@ -105,7 +120,7 @@ _
             description => <<'_',
 
 JSON.pm is a discouraged module now, due to its somewhat broken backend handling
-and lack of support for <pm:Cpanel::JSON::XS>. consider switching to
+and lack of support for <pm:Cpanel::JSON::XS>. Consider switching to
 <pm:JSON::MaybeXS> or perhaps just <pm:JSON::PP>.
 
 _
