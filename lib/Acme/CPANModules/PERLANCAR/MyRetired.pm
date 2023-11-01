@@ -62,10 +62,10 @@ _
             module => 'Module::List::WithPath',
             description => <<'_',
 
-Superseded by <pm:PERLANCAR::Module::List>.
+Superseded by <pm:Module::List::More>.
 
 _
-            alternate_modules => ['PERLANCAR::Module::List'],
+            alternate_modules => ['Module::List::More'],
         },
         {
             module => 'App::CreateSparseFile',
