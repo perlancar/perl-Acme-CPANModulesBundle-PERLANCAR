@@ -9,7 +9,7 @@ use warnings;
 # VERSION
 
 our $LIST = {
-    summary => "Modules I'm currently avoiding",
+    summary => "List of modules I'm currently avoiding",
     description => <<'_',
 
 This is a list of modules I'm currently avoiding to use in my code, for some

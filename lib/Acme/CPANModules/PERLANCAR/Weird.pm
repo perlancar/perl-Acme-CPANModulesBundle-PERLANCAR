@@ -9,7 +9,7 @@ use warnings;
 # VERSION
 
 our $LIST = {
-    summary => 'Weird modules',
+    summary => 'List of weird modules',
     description => <<'_',
 
 List of modules I find weird (non-pejoratively speaking) in one way or another,

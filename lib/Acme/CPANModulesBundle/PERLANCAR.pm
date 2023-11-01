@@ -8,6 +8,6 @@ package Acme::CPANModulesBundle::PERLANCAR;
 # VERSION
 
 1;
-# ABSTRACT: PERLANCAR's collection of Acme::CPANModules::* modules
+# ABSTRACT: Lists of Acme::CPANModules::PERLANCAR::* modules
 
 =head1 DESCRIPTION

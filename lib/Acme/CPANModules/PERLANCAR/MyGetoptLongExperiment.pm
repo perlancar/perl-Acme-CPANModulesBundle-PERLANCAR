@@ -9,7 +9,7 @@ use warnings;
 # VERSION
 
 our $LIST = {
-    summary => 'My experiments writing Getopt::Long replacements/alternatives',
+    summary => 'List of my experiments writing Getopt::Long replacements/alternatives',
     description => <<'_',
 
 Most of these modules provide a <pm:Getopt::Long>-compatible interface, but they

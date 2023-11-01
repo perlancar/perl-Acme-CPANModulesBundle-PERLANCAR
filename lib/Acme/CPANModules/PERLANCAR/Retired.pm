@@ -9,7 +9,7 @@ use warnings;
 # VERSION
 
 our $LIST = {
-    summary => 'Retired modules',
+    summary => 'List of my retired modules',
     description => <<'_',
 
 This is a list of some of the modules which I wrote but have now been retired
