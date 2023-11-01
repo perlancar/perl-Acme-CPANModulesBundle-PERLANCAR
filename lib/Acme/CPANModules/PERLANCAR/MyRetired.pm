@@ -1,4 +1,4 @@
-package Acme::CPANModules::PERLANCAR::Retired;
+package Acme::CPANModules::PERLANCAR::MyRetired;
 
 use strict;
 use warnings;
